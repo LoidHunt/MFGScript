@@ -15,7 +15,7 @@ local torso = char:FindFirstChild("Torso")
 function getNearbyAogiri()
 local aogiri = {}
 for _, v in ipairs(game:GetService("Workspace"):GetDescendants()) do
-if v.Name == Eto Yoshimura then
+if v.Name == "Eto Yoshimura" or v.Name == "KJ" or v.Name == "Ryomen Sukuna" or v.Name == "Rank 2 Investigator" then
 table.insert(aogiri, v)
 end
 end
